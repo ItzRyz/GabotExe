@@ -1,0 +1,49 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "kehay.js",
+  "scripts": {
+    "start": "node ./src/system/kehay.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "discord.js": "^12.2.0",
+    "fs": "^0.0.2",
+    "ascii-table": "^0.0.9",
+    "ffmpeg": "^0.0.4",
+    "node-gyp": "^8.4.1",
+    "node-opus": "^0.3.3",
+    "opusscript": "^0.0.8",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^4.9.1",
+    "common-tags": "^1.8.0",
+    "snekfetch": "^4.0.4",
+    "cheerio": "^0.22.0",
+    "superagent": "^6.1.0",
+    "http": "^0.0.0",
+    "https": "^1.0.0",
+    "child_process": "^1.0.2",
+    "moment": "^2.29.1",
+    "genius-lyrics": "^4.2.9",
+    "ms": "^2.1.2",
+    "quick.db": "^7.1.1",
+    "discord-ytdl-core": "^5.0.4",
+    "moment-duration-format": "^2.3.2"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
